@@ -2,8 +2,11 @@
 
 ## Errors occured
 
-`Error using plot`
-`Vectors must be the same length.`
+```
+Error using plot
+Vectors must be the same length.
+
+```
 
 Reason for this error is that number of elements in X axis is not equal to nmber of elements in Y axis or viseversa.
 
