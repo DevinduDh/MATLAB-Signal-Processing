@@ -27,7 +27,8 @@ xlabel('seconds'); title('sine (solid) and cosine (dashed)');
 
 %% Plotting a square wave
 fy = 100; %Signal frequency
-t = 0:
+t = 0:0.001:3; %time interval set
+y = square();
 
 
 
