@@ -1,0 +1,18 @@
+% Generating Periodic Signals
+%% Sinusoidal signal with 1s period
+f = 1; %signal frequency
+fs = 60; %sampling frequency in HZ
+tiv = 1/fs; %time interval between samples
+t = 0:tiv:3;
+x = sin(2*pi*f*t);
+plot(t,x);
+
+%% Plotting sin and cos signal in same plot
+f = 1; %Signal frequency in Hz
+fs = 60;%Sample frequency in Hz
+tiv = 1/fs; %time interval between samples
+t = 0:tiv:3;
+xs = sin(2*pi*f);
+plot(t,xs); 
+hold
+xc = cos(2*pi*f);
